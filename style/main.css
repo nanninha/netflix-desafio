@@ -12,7 +12,7 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
+   background: var(#ffffff);
    font-family: 'Arial', Times, serif;
    color:white;
 }
@@ -24,6 +24,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     height: 200 px;
+    color: #000000
     
 }
 
