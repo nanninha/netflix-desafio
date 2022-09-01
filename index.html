@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="./img/logo-pbh.svg" height:100px />
+            <img src="./img/logo-pbh.svg" height="10%" width="10%"/>
             <h2 class="logo">Gerência de Zoonoses - Controle de quadras</h2>
             <nav>
             
@@ -27,30 +27,53 @@
 
     <main>
         <div class="principal">
+           
             <div class="container">
-                <h3 class="titulo">Regional</h3>
-                 <select id="escolaRegional" name="regional">
-                
-              </select>
+              
+                <h5 class="titulo">Regional</h5>
+                <br/>
+                <div class="lista_suspensa_regional">  
+                    <select id="escolaRegional" name="regional">
+                        <option> --Selecione a regional desejada--</option>
+                        <option value="barreiro"> Barreiro</option>
+                        <option value="centrosul"> Centro-Sul</option>
+                        <option value="leste"> Leste</option>
+                        <option value="nordeste"> Nordeste</option>
+                        <option value="noroeste"> Noroeste</option>
+                        <option value="norte"> Norte</option>
+                        <option value="oeste"> Oeste</option>
+                        <option value="pampulha"> Pampulha</option>
+                        <option value="vendanova"> Venda Nova</option>
+                    </select>
+                </div> 
+                <h5 class="sub_titulo">Área de abrangência</h5>
                 <p class="descricao"> </p>
                 <div class="botoes">
                     <button role="button" class="botao">
-                       <a href="https://youtu.be/dP4U4yDi6vY">
-                        Selecionar
+                       <a href="https://bhmap.pbh.gov.br/v2/mapa/idebhgeo#zoom=4&lat=7796893.0925&lon=609250.9075&baselayer=base&layers=abrang_saude2">
+                        Confirmar
                     </a>
                     </button>
                     <button role="button" class="botao">
-                        <a href="http://memorialdademocracia.com.br/page/a-era-do-radio">
+                        <a href="https://bhmap.pbh.gov.br/v2/mapa/idebhgeo#zoom=4&lat=7796893.0925&lon=609250.9075&baselayer=base&layers=abrang_saude2">
                    Ver mapa
                     </a>
                    
                     </button>
-                     
+                    
+                    <br/> <br/>
+                <br/>
+                <br/>
+                    
                 </div>
             </div>
+            
         </div>
-    </main>
 
+    </main>
+<div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31680401.060000386!2d-53.186502!3d-14.239424000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1662060867829!5m2!1spt-PT!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>   
     
     </div>
    
